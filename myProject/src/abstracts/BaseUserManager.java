@@ -38,6 +38,8 @@ public class BaseUserManager implements UserService {
 
 	@Override
 	public void list(User[] users) {
+		
+		System.out.println("User list------------");
 		for (User user : users) {
 			System.out.println(user.getId()+" = "+user.getName()+" "+user.getSurname());
 		}

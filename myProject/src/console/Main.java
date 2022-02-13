@@ -26,19 +26,19 @@ public class Main {
 		
 		User user3=new User();
 		user3.setId(3);
-		user3.setName("Ayşe");
+		user3.setName("Ayse");
 		user3.setSurname("Tekin");
 		user3.setGender("Kadın");
 		user3.setBirthYear(1969);
 		user3.setIdendityNumber(22222);
 		
 		User user4=new User();
-		user4.setId(1);
+		user4.setId(4);
 		user4.setName("Turan");
 		user4.setSurname("Tekin");
 		user4.setGender("Erkek");
 		user4.setBirthYear(1967);
-		user4.setIdendityNumber(33333);
+		user4.setIdendityNumber(99999);
 		
 		
 		BaseUserManager userManager = new BaseUserManager(new UserCheckManager());
