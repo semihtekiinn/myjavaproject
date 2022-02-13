@@ -60,7 +60,7 @@ public class Main {
 		userManager.delete(user2);
 		userManager.delete(user3);
 		
-		userManager.list(users);
+		userManager.list(users); 
 
 		};
 
