@@ -1,7 +1,5 @@
 package abstracts;
 
-import java.time.LocalDate;
-
 import entities.User;
 
 
@@ -14,9 +12,6 @@ public interface UserService {
 	
 	void delete(User user);
 	
-	void list(User[] users);
-		
-		
-	
+	void list(User[] users); 
 	
 	}

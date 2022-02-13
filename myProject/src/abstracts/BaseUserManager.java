@@ -1,7 +1,5 @@
 package abstracts;
 
-import java.util.Iterator;
-
 import entities.User;
 
 public class BaseUserManager implements UserService {
@@ -42,7 +40,7 @@ public class BaseUserManager implements UserService {
 		System.out.println("User list------------");
 		for (User user : users) {
 			System.out.println(user.getId()+" = "+user.getName()+" "+user.getSurname());
-		}
+		} 
 		
 	}
 	

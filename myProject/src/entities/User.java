@@ -30,7 +30,7 @@ public class User implements Entity {
 
 	public void setId(int id) {
 		this.id = id;
-	}
+	} 
 
 	public long getIdentityNumber() {
 		return identityNumber;
